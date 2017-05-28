@@ -37,6 +37,8 @@ public class EqualQuizTest {
 
         assertThat("객체 == 비교", q1 == q2, is(true));
         assertThat("객체 equals 비교", q1.equals(q2), is(true));    // TODO EqualsQuiz 를 수정해서 테스트 통과 시키기
+
+        // equals 는 절대로 값이 같다는 보장이 아니다.
     }
 
     @Test

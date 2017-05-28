@@ -14,6 +14,7 @@ import static org.junit.Assert.*;
 public class CnuLectureTest {
     private static CnuLecture cnuLecture;
 
+    @Before
     @BeforeClass
     public static void setUp() throws Exception {
         cnuLecture = new CnuLecture();

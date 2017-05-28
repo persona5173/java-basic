@@ -5,7 +5,6 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * Created by rokim on 2017. 5. 26..
  */
-@Slf4j
 public class GamePlayer {
 
 

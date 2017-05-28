@@ -3,6 +3,8 @@ package kr.ac.cnu.grammer;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 /**
@@ -14,16 +16,17 @@ public class GenericExampleTest {
     @Before
     public void setUp() throws Exception {
         genericExample = new GenericExample();
+        genericExample.addPerson(1, "Mina");
+        genericExample.addPerson(35, "Robin");
+        genericExample.addPerson(31, "Ian");
     }
 
     @Test
-    public void getPersonList_기능_테스트() {
-
+    public void 오름차순_테스트() {
     }
 
     @Test
-    public void getPersonList2_기능_테스트() {
-
+    public void 내림차순_테스트() {
     }
 
 }
