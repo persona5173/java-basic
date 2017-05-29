@@ -11,6 +11,7 @@
 **9조**
 + ParkSunggyu
 + RyuChihyeon
++ KwonOhhyun
 - - -
 
 ## 방법
