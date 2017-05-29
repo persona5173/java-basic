@@ -24,4 +24,8 @@ public class GamePlayer {
     public int attack() {
         return weapone.getDamage();
     }
+
+    public void temp(Weapone weapone) {
+        weapone.getDamage();
+    }
 }

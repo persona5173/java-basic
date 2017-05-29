@@ -28,12 +28,34 @@ public class MyFrame extends JFrame {
         JButton button = new JButton();
         button.setText("CLICK");
 
+
+
+
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("버튼이 눌렸다!!");
             }
         });
+
+
+
+
+        button.addActionListener(e -> {
+            System.out.println("버튼이 눌렸다!!");
+        });
+
+
+
+
+
+
+
+
+
+
+
+
 
         button.addActionListener(new LabelGenerator());
         button.addActionListener(new LabelGenerator());
