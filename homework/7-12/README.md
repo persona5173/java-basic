@@ -12,6 +12,7 @@
 + ParkSunggyu
 + RyuChihyeon
 + KwonOhhyun
++ LeeSangsu
 - - -
 
 ## 방법
