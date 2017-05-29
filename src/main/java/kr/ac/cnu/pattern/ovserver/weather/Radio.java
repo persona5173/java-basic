@@ -7,9 +7,10 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class Radio {
-    public void sound() {
+    public void sound(WeatherData weatherData) {
         log.info("======================");
         log.info("라디오 채널로 방송합니다.");
+        log.info("{}", weatherData);
         log.info("======================");
     }
 }

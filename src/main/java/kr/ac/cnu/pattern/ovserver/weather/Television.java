@@ -7,9 +7,10 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class Television {
-    public void display() {
+    public void display(WeatherData weatherData) {
         log.info("====================");
         log.info("화면에 보여줍니다.");
+        log.info("{}", weatherData);
         log.info("====================");
     }
 }
