@@ -10,4 +10,11 @@ import static org.junit.Assert.*;
  */
 @Slf4j
 public class GamePlayerTest {
+    @Test
+    public void test() {
+        GamePlayer gamePlayer = new GamePlayer("Robin");
+        gamePlayer.setWeapone(new LegendBow());
+
+        log.info("{}이 공격한다. {}", gamePlayer.getName(), gamePlayer.attack());
+    }
 }
