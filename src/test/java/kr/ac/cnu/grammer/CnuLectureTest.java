@@ -23,7 +23,6 @@ public class CnuLectureTest {
     public void setUp() throws Exception {
         cnuLecture = new CnuLecture();
 
-
         cnuLecture.addTeacher(T1);
         cnuLecture.addTeacher(T2);
         cnuLecture.addTeacher(T3);

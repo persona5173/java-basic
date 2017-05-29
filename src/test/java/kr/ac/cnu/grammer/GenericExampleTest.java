@@ -23,6 +23,18 @@ public class GenericExampleTest {
 
     @Test
     public void 오름차순_테스트() {
+        List<Person> personList = genericExample.findAllByOrderByAgeAsc();
+
+        Person base = null;
+        for (Person person : personList) {
+            if (base == null) {
+                base = person;
+                continue;
+            }
+
+            assertTrue(person.getAge() > base.getAge());
+            base = person;
+        }
     }
 
     @Test
