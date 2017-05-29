@@ -12,22 +12,22 @@ import static org.junit.Assert.*;
  * Created by rokim on 2017. 5. 26..
  */
 public class CnuLectureTest {
-    private static CnuLecture cnuLecture;
+    private static Teacher T1 = new Teacher("Robin", 10);
+    private static Teacher T2 = new Teacher("Tony", 8);
+    private static Teacher T3 = new Teacher("David", 13);
+    private static Teacher T4 = new Teacher("Sam", 17);
+
+    private CnuLecture cnuLecture;
 
     @Before
-    @BeforeClass
-    public static void setUp() throws Exception {
+    public void setUp() throws Exception {
         cnuLecture = new CnuLecture();
 
-        Teacher teacher1 = new Teacher("Robin", 10);
-        Teacher teacher2 = new Teacher("Tony", 8);
-        Teacher teacher3 = new Teacher("David", 13);
-        Teacher teacher4 = new Teacher("Sam", 17);
 
-        cnuLecture.addTeacher(teacher1);
-        cnuLecture.addTeacher(teacher2);
-        cnuLecture.addTeacher(teacher3);
-        cnuLecture.addTeacher(teacher4);
+        cnuLecture.addTeacher(T1);
+        cnuLecture.addTeacher(T2);
+        cnuLecture.addTeacher(T3);
+        cnuLecture.addTeacher(T4);
     }
 
     @Test
