@@ -1,4 +1,4 @@
-# homework 1week
+﻿# homework 1week
 
 ## 각 조는 하단에 아래와 같은 형식으로 조원의 구성원을 입력하세요
 
@@ -19,7 +19,13 @@
 + 조장훈
 + 김동하
 - - -
-
+**17조**
++ 이인규
++ 이후명
++ 강천성
++ 유현모
++ 이재령
+- - - 
 ## 방법
 1. 각 조 조장은 napi/java-basic repository 를 fork 딴 후, write 권한을 받아간다.
 2. 자신이 속한 조에 자기의 이름을 입력하여 commit 하고, 조장은 해당 commit 을 모아 master branch 에 Pull request -> Merge 를 수행한다.
