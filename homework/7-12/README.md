@@ -9,10 +9,13 @@
 + Ian
 + Robin
 - - -
+
 #### 12조
 **조원**
 + 박준형
++ 이연섭
 - - -
+
 ## 방법
 1. 각 조 조장은 napi/java-basic repository 를 fork 딴 후, write 권한을 받아간다.
 2. 더이상 자세한 내용은 생략한다.
