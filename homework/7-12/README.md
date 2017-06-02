@@ -8,6 +8,9 @@
 + Ian
 + Robin
 - - -
+**7조**
++ JungYouKyung
+- - -
 **8조**
 + JungYunsu
 + SeokJihun
