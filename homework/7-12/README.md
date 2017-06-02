@@ -11,6 +11,7 @@
 **7조**
 + JungYouKyung
 + KimSuJoung
++ YangDaEun
 - - -
 **8조**
 + JungYunsu
