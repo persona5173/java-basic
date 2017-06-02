@@ -8,13 +8,18 @@
 + Ian
 + Robin
 - - -
+**8조**
++ JungYunsu
++ SeokJihun
++ LeeSangHyeon
++ LimDaeYeong
+- - -
 **9조**
 + ParkSunggyu
 + RyuChihyeon
 + KwonOhhyun
 + LeeSangsu
 - - -
-
 #### 12조
 **조원**
 + 박준형
