@@ -10,6 +10,7 @@
 - - -
 **7조**
 + JungYouKyung
++ KimSuJoung
 - - -
 **8조**
 + JungYunsu
